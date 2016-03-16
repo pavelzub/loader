@@ -1,3 +1,29 @@
-#btn_start{
-	margin: 20px;
+table{
+    border-collapse: collapse;
+}
+
+.noprogres{
+	background: url("images/0.jpg");
+	background-size: cover;
+}
+
+.loading{
+	background: url("images/2.jpg");
+	background-size: cover;
+}
+
+.success{
+	background: url("images/1.jpg");
+	background-size: cover;
+}
+
+.error{
+	background: url("images/3.jpg");
+	background-size: cover;
+}
+
+td{
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
 }
